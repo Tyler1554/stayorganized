@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ToDos</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="todos.html">Todos</a>
-        </nav>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="todos.html">Todos</a>
+      </nav>
     </header>
     <main>
-        <a href="new-todo.html">Add Todo</a>
-        <h1>Todos</h1>
+      <a href="new-todo.html">Add Todo</a>
+      <h1>Todos</h1>
 
-        <label for="user-drop">Pick a task</label>
-        <select name="" id="user-drop">
-            <option value="">Select . . .</option>
-        </select>
+      <label for="user-drop">Pick a task</label>
+      <select name="" id="user-drop">
+        <option>Select . . .</option>
+      </select>
 
+      <div id="display">
+        <div class="form-col"></div>
+        <div id="todo-card"></div>
+      </div>
+      
     </main>
     <footer></footer>
     <script src="scripts/todos.js"></script>
-</body>
+  </body>
 </html>
